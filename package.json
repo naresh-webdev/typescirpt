@@ -1,0 +1,22 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naresh-webdev/typescirpt.git"
+  },
+  "author": "Naresh M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naresh-webdev/typescirpt/issues"
+  },
+  "homepage": "https://github.com/naresh-webdev/typescirpt#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
