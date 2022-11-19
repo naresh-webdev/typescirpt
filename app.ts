@@ -1,10 +1,34 @@
-function app(n1: number, n2: number) {
-  return n1 + n2;
+// const person: {
+//   name: string;
+//   age: number;
+// } = {
+//   name: "Naresh",
+//   age: 18,
+// };
+
+const person: {
+  name: string;
+  age: number;
+  hobbies: string[];
+  role: [number, string];
+} = {
+  name: "Naresh",
+  age: 18,
+  hobbies: ["programming", "anime"],
+  role: [2, "author"],
+};
+
+person.role = [1, "Rimuru"];
+
+let animes: string[];
+animes = [
+  "attack on titan",
+  "erased",
+  "that time I got reincarnated as a slime",
+];
+
+console.log(person.role);
+
+for (const hobby of person.hobbies) {
+  console.log(hobby.toUpperCase());
 }
-
-const number = 5;
-let number1: number;
-
-number1 = +prompt("enter a number")!;
-
-console.log("the entered number is : " + number1);
